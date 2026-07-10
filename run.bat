@@ -16,6 +16,11 @@ timeout /t 3 /nobreak > nul
 echo [*] Dang khoi dong phpMyAdmin tren port 9000...
 start "phpMyAdmin Server" /D "D:\phpmyadmin" D:\php\php.exe -S localhost:9000
 
+start "phpMyAdmin Server" /D "D:\kkd" D:\php\php.exe -S localhost:1000
+start "phpMyAdmin Server" /D "D:\samnec" D:\php\php.exe -S localhost:2000
+start "phpMyAdmin Server" /D "D:\ai" D:\php\php.exe -S localhost:5000
+start "phpMyAdmin Server" /D "D:\nhatro" D:\php\php.exe -S localhost:7000
+
 echo ====================================================
 echo THANH CONG! Giu nguyen cac cua so CMD de chay he thong.
 echo Truy cap phpMyAdmin: http://localhost:9000
