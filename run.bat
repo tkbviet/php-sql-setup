@@ -16,10 +16,13 @@ timeout /t 3 /nobreak > nul
 echo [*] Dang khoi dong phpMyAdmin tren port 9000...
 start "phpMyAdmin Server" /D "D:\phpmyadmin" D:\php\php.exe -S localhost:9000
 
-start "phpMyAdmin Server" /D "D:\kkd" D:\php\php.exe -S localhost:1000
-start "phpMyAdmin Server" /D "D:\samnec" D:\php\php.exe -S localhost:2000
-start "phpMyAdmin Server" /D "D:\ai" D:\php\php.exe -S localhost:5000
-start "phpMyAdmin Server" /D "D:\nhatro" D:\php\php.exe -S localhost:7000
+start "KKD" /D "D:\kkd" D:\php\php.exe -S localhost:1000
+start "SAM" /D "D:\sam" D:\php\php.exe -S localhost:2000
+start "AI" /D "D:\ai" D:\php\php.exe -S localhost:5000
+start "TRO" /D "D:\nhatro" D:\php\php.exe -S localhost:6001
+start "TIMETABLE" /D "D:\timetable" D:\php\php.exe -S localhost:7000
+start "QUY" /D "D:\quy" D:\php\php.exe -S localhost:7001
+start "GA" /D "D:\bega" D:\php\php.exe -S localhost:7002
 
 echo ====================================================
 echo THANH CONG! Giu nguyen cac cua so CMD de chay he thong.
